@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.juan_.proyecto.Login"
+    tools:context="com.example.juan_.proyecto.LoginActivity"
     android:orientation="vertical"
     android:weightSum="1">
 
@@ -51,12 +51,14 @@
         </EditText>
 
         <Button
+            android:id="@+id/enter"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:text="@string/login"
             android:layout_marginStart="@dimen/login_input_margin"
             android:layout_marginEnd="@dimen/login_input_margin"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:onClick="aquiva algo">
 
         </Button>
 
